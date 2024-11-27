@@ -19,7 +19,7 @@ def create_hollow_diamond():
     print((" " * i ) + "*" + (" " * middle_space) + "*")
     middle_space += 2
 
-    # Here we have a loop to print the bottom part of the screen.
+    # Here we have a loop to print the bottom part of the diamond.
     # so in the first line we are printing spaces before the first star to keep it centered.. since the spaces before the first star (of the bottom part) needs no space, thus the loop starts off at 0.
     # The spaces before the first star keep increasing, [(" " * j ) + "*"],
     # and the spaces in middle of both stars [(" " * middle_space) + "*")], keep decreasing due to [middle_space -= 2]
