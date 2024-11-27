@@ -1,7 +1,7 @@
 # Take user input as height and convert it to integer because its a string by default.
 diamond_height_input = int(input("Enter height of 💎:\n"))
 
-# Actual Diamond height is 1/2 of the user input because we are running two loops, 1 for the top part and second for the bottom part. We also have to convert it to an integer because if the user enters height 7, then 7/2 is 4.5 and you cannot run a loop 4.5 times.. so int(4.5) = 4.
+# Actual Diamond height is 1/2 of the user input because we are running two loops, 1 for the top part and second for the bottom part. We also have to convert it to an integer because if the user enters height 7, then 7/2 is 3.5 and you cannot run a loop 3.5 times.. so int(3.5) = 3.
 diamond_height = int(diamond_height_input / 2)
 
 # Creating a function that makes the diamond for us
